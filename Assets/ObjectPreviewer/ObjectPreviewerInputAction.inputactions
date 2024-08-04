@@ -1,0 +1,275 @@
+{
+    "name": "ObjectPreviewerInputAction",
+    "maps": [
+        {
+            "name": "ObjectPreviewerActionMap",
+            "id": "5c842c7d-a77b-45d6-be34-e72aa2091b47",
+            "actions": [
+                {
+                    "name": "OrbitKeyboard",
+                    "type": "Value",
+                    "id": "30fad6a8-af5d-4e75-8017-bf9cb9a56ae5",
+                    "expectedControlType": "Vector2",
+                    "processors": "ScaleVector2(x=5,y=5)",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "OrbitMouseActivation",
+                    "type": "Button",
+                    "id": "6402a5b8-866e-4f46-b6fa-fcfbc6ac38a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OrbitMouse",
+                    "type": "PassThrough",
+                    "id": "6613cc49-0788-4942-a2fd-3cd8b5525d11",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DollyMouse",
+                    "type": "Value",
+                    "id": "db6a614c-dfc4-4d99-81e8-2c29a92fbc7f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DollyTouch1",
+                    "type": "Value",
+                    "id": "39dbe990-12ee-4986-875b-e0bb99063510",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DollyTouch2",
+                    "type": "Value",
+                    "id": "b4ea592e-b090-41c0-b475-9cbc0e04d866",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DollyTouch2Activation",
+                    "type": "Button",
+                    "id": "8d057f34-a7ca-42a5-a246-815818c35645",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "e98b2105-2a41-4e75-873e-3e5fecfa66fe",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "706c6b8d-76a7-417b-977c-3707409715bb",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6c8c0033-deb2-42b0-9fce-ccd8559fad43",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "a675c093-d021-4203-b103-b2ff6b4496a1",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "bd5abb6c-a82e-4460-9f4e-299e8fe62c7f",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "1a16395c-9148-4963-8b0b-a0520095f51f",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "6e6a241e-5f86-4e2c-89df-e41c2f09b8f2",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "9c76bdf6-7967-4b28-8356-6e457db428d7",
+                    "path": "<Keyboard>/#(S)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "2a5b8ec5-f78d-493e-ada4-6047ec759c9c",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "1517b28d-7cc8-4b92-bac5-65d8a81f4435",
+                    "path": "<Keyboard>/#(D)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "9a3c704b-6709-4142-ae97-5791ca462b3e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press,MultiTap(tapTime=0.1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitMouseActivation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0910ef66-93e0-4a96-9dd9-5f8619a9a948",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "Press,MultiTap(tapTime=0.1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitMouseActivation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e94f569c-ddca-42a0-87fd-68c71d4f769d",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd5bbba9-70ea-4461-8029-0e1e64564222",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OrbitMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cac191ea-a3a1-4128-b160-b0d862d69b38",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=0.5,y=0.5)",
+                    "groups": "",
+                    "action": "DollyMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20e9991b-63ec-4036-8dc9-9d5add2753b7",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DollyTouch1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c428012-4898-456b-9256-d13b6b2fc8be",
+                    "path": "<Touchscreen>/touch1/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DollyTouch2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d742e126-a072-4522-ae6e-3af907af35a0",
+                    "path": "<Touchscreen>/touch1/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DollyTouch2Activation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
